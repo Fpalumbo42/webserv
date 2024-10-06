@@ -1,0 +1,163 @@
+#up_title {
+    border-radius: 0px;
+}
+
+#title {
+    font-family: KirbyFont;
+    font-size: 60px;
+    
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    
+    text-align: center;
+
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: palevioletred;
+
+    background-color: dodgerblue;
+
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#title:hover {
+    font-size: 80px;
+}
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+section .scroll {
+    position: relative;
+    top: -100px;
+
+    font-size: 200%;
+
+    width: 100%;
+    display: flex;
+
+    rotate: -5deg;
+}
+
+section .scroll div {
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: white;
+    letter-spacing: 0.2em;
+    
+    animation: text_scroll_anim 20s linear infinite;
+    animation-delay: -20s;
+}
+
+section .scroll div:nth-child(2) {   
+    animation: text_scroll_anim2 20s linear infinite;
+    animation-delay: -10s;
+}
+
+@keyframes text_scroll_anim {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes text_scroll_anim2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+#button_div {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+    width: 50%;
+    
+    display: flex;
+    rotate: -8deg;
+}
+
+.button {
+    font-size: 40px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-width: 5px;
+    border-color: dodgerblue;
+    border-style: solid;
+    
+    background-size:cover;
+
+}
+
+.button:hover {
+    font-size: 50px;
+}
+
+#play_button {
+    background-image: url("../img/play_button2.png");
+    font-size: 100px;
+    padding: 100px;
+}
+
+#play_button:hover {
+    font-size: 120px;
+}
+
+
+#music_button {
+    background-image: url("../img/music.jpg");
+}
+
+#history_button {
+    background-image: url("../img/history.jpg");
+}
+
+.column {
+    flex: 50%;
+    margin-right: 60px;
+}
+
+.column > * {
+    display: block;
+    margin: 100px 0;
+}
+
+.column > *:first-child {
+    margin-top: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border-radius: 0;
+
+    width: auto;
+
+    min-height: 50px;
+    
+}

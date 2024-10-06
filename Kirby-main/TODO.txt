@@ -1,0 +1,11 @@
+- Kirby pinball (sauvegarder les scores)
+- Voir les kirby de chaque joueur
+- Dadidadou
+- Redimensionner le jeu <(˶ᵔᵕᵔ˶)>
+- Faire les changeant d'artstyle
+- Faire le musée
+  - link les langages au codingames
+  - link github
+- Meilleurs collisions
+- Organigrammes des classes <(˶ᵔᵕᵔ˶)>
+- Scrolling vertical à améliorer

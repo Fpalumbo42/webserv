@@ -1,0 +1,285 @@
+#kirby {
+   width: 16px;
+   height: 16px;
+
+   position: relative;
+}
+
+#kirby_sprite_renderer {
+   background-image: url("../img/dream_land/kirby/kirby_idle.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   width: 16px;
+   height: 16px;
+
+   z-index: 100;
+
+   position: relative;
+
+}
+
+@keyframes kirby_idle_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_idle.png");
+   }
+
+   53% {
+      background-image: url("../img/adventure/kirby/kirby_blink.png");
+   }
+
+   55% {
+      background-image: url("../img/adventure/kirby/kirby_idle.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_idle.png");
+   }
+}
+
+@keyframes kirby_walk_dream_land {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_walk_00.png");
+   }
+
+   25% {
+      background-image: url("../img/dream_land/kirby/kirby_walk_01.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/kirby/kirby_walk_02.png");
+   }
+
+   75% {
+      background-image: url("../img/dream_land/kirby/kirby_walk_03.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_walk_00.png");
+   }
+}
+
+@keyframes kirby_walk_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_walk_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/kirby/kirby_walk_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/kirby/kirby_walk_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/kirby/kirby_walk_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_walk_00.png");
+   }
+}
+
+@keyframes kirby_jump_roll_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_jump_01.png");
+   }
+
+   33% {
+      background-image: url("../img/adventure/kirby/kirby_jump_02.png");
+   }
+
+   66% {
+      background-image: url("../img/adventure/kirby/kirby_jump_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_jump_03.png");
+   }
+}
+
+@keyframes kirby_float_idle_dream_land {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_float_00.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/kirby/kirby_float_01.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_float_00.png");
+   }
+}
+
+@keyframes kirby_float_idle_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_float_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/kirby/kirby_float_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_float_00.png");
+   }
+}
+
+@keyframes kirby_float_jump_dream_land {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_float_01.png");
+   }
+
+   40% {
+      background-image: url("../img/dream_land/kirby/kirby_float_00.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_float_00.png");
+   }
+}
+
+@keyframes kirby_float_jump_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_float_01.png");
+   }
+
+   40% {
+      background-image: url("../img/adventure/kirby/kirby_float_00.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_float_00.png");
+   }
+}
+
+@keyframes kirby_mouthfull_walk_dream_land {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_mouthfull_walk_00.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/kirby/kirby_mouthfull_walk_01.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_mouthfull_walk_00.png");
+   }
+}
+
+@keyframes kirby_mouthfull_walk_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_mouthfull_walk_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/kirby/kirby_mouthfull_walk_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/kirby/kirby_mouthfull_walk_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/kirby/kirby_mouthfull_walk_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_mouthfull_walk_00.png");
+   }
+}
+
+@keyframes kirby_end_inhale {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_inhale_01.png");
+      height: 24px;
+   }
+
+   50% {
+      background-image: url("../img/dream_land/kirby/kirby_inhale_01.png");
+      height: 24px;
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_inhale_01.png");
+      height: 24px;
+   }
+}
+
+@keyframes kirby_death_dream_land {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_death_00.png");
+   }
+
+   10% {
+      background-image: url("../img/dream_land/kirby/kirby_death_01.png");
+   }
+
+   20% {
+      background-image: url("../img/dream_land/kirby/kirby_death_02.png");
+      transform: translateY(-3vw);
+   }
+
+   30% {
+      background-image: url("../img/dream_land/kirby/kirby_death_03.png");
+   }
+
+   40% {
+      background-image: url("../img/dream_land/kirby/kirby_death_00.png");
+      transform: translateY(3vw);
+   }
+
+   100% {
+      background-image: url("../img/dream_land/kirby/kirby_death_00.png");
+   }
+}
+
+@keyframes kirby_death_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/kirby_death.png");
+   }
+
+   20% {
+      transform: translateY(-3vw);
+   }
+
+   40% {
+      transform: translateY(3vw);
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/kirby_death.png");
+   }
+}
+
+@keyframes kirby_dance {
+   0% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_00.png");
+   }
+
+   10% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_01.png");
+   }
+
+   20% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_02.png");
+   }
+
+   30% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_03.png");
+   }
+
+   40% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_04.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_05.png");
+   }
+
+   60% {
+      background-image: url("../img/dream_land/kirby/kirby_dance_06.png");
+   }
+}

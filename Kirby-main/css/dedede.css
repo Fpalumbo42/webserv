@@ -1,0 +1,70 @@
+#dedede {
+   background-image: url("../img/dream_land/dedede/dedede_idle_00.png");
+   background-repeat: no-repeat;
+
+   width: 32px;
+   height: 32px;
+
+   left: 270px;
+   top: 148px;
+
+   z-index: 100;
+
+   position: absolute;
+}
+
+@keyframes dedede_idle_dream_land {
+   0% {
+      background-image: url("../img/dream_land/dedede/dedede_idle_00.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/dedede/dedede_idle_01.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/dedede/dedede_idle_00.png");
+   }
+}
+
+@keyframes dedede_idle_adventure {
+   0% {
+      background-image: url("../img/adventure/dedede/dedede_idle_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/dedede/dedede_idle_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/dedede/dedede_idle_00.png");
+   }
+}
+
+@keyframes dedede_walk_dream_land {
+   0% {
+      background-image: url("../img/dream_land/dedede/dedede_walk_00.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/dedede/dedede_walk_01.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/dedede/dedede_walk_00.png");
+   }
+}
+
+@keyframes dedede_walk_adventure {
+   0% {
+      background-image: url("../img/adventure/dedede/dedede_walk_00.png");
+   }
+
+   50% {
+      background-image: url("../img/advneture/dedede/dedede_walk_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/dedede/dedede_walk_00.png");
+   }
+}

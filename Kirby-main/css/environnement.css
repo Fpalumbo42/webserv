@@ -1,0 +1,54 @@
+.ground {
+   background-image: url("../img/adventure/env/ground.png");
+
+   width: 1500px;
+   height: 40px;
+
+   position: absolute;
+}
+
+#thirdground {
+   background-image: url("../img/adventure/env/thirdground.png");
+
+   width: 1500px;
+   height: 250px;
+
+   z-index: -50;
+
+   position: absolute;
+}
+
+#secondground {
+   background-image: url("../img/adventure/env/secondground.png");
+
+   width: 1500px;
+   height: 32px;
+
+   z-index: -40;
+
+   position: absolute;
+}
+
+#foreground {
+   background-image: url("../img/adventure/env/foreground.png");
+
+   width: 233px;
+   height: 128px;
+
+   position: absolute;
+
+   z-index: -30;
+}
+
+#background {
+   background-image: url("../img/adventure/env/background.png");
+
+   width: 750px;
+   height: 300px;
+
+   position: absolute;
+
+   z-index: -60;
+
+   transform-origin: top left;
+}

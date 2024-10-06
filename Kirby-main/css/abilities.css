@@ -1,0 +1,256 @@
+.beam {
+   background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_beam.png");
+
+   width: 8px;
+   height: 8px;
+
+   position: absolute;
+}
+
+.cutter {
+   background-image: url("../img/adventure/abilities/kirby_cutter/cutter_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: cutter_anim 100ms infinite;
+}
+
+@keyframes cutter_anim {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_cutter/cutter_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/abilities/kirby_cutter/cutter_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/abilities/kirby_cutter/cutter_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/abilities/kirby_cutter/cutter_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_cutter/cutter_00.png");
+   }
+}
+
+.fire {
+   background-image: url("../img/adventure/abilities/kirby_fire/fire_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: fire 100ms infinite;
+}
+
+@keyframes fire {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_fire/fire_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/abilities/kirby_fire/fire_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/abilities/kirby_fire/fire_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/abilities/kirby_fire/fire_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_fire/fire_00.png");
+   }
+}
+
+@keyframes kirby_fire_attack_adventure {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_fire/kirby_fire_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/abilities/kirby_fire/kirby_fire_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_fire/kirby_fire_00.png");
+   }
+}
+
+.ice {
+   background-image: url("../img/adventure/abilities/kirby_ice/ice_00.png");
+
+   width: 37px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: ice 200ms;
+}
+
+@keyframes ice {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_00.png");
+   }
+
+   16% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_01.png");
+   }
+
+   33% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_02.png");
+   }
+
+   48% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_03.png");
+   }
+
+   66% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_04.png");
+   }
+
+   84% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_05.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_ice/ice_05.png");
+   }
+}
+
+.spark {
+   background-image: url("../img/adventure/abilities/kirby_spark/spark_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes spark {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_spark/spark_00.png");
+   }
+
+   33% {
+      background-image: url("../img/adventure/abilities/kirby_spark/spark_01.png");
+   }
+
+   90% {
+      background-image: url("../img/adventure/abilities/kirby_spark/spark_02.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_spark/spark_02.png");
+   }
+}
+
+@keyframes kirby_spark_attack_adventure {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_spark/kirby_spark_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/abilities/kirby_spark/kirby_spark_02.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_spark/kirby_spark_01.png");
+   }
+}
+
+@keyframes kirby_sleep_idle_adventure {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_00.png");
+   }
+
+   15% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_01.png");
+   }
+
+   30% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_00.png");
+   }
+
+   45% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_01.png");
+   }
+
+   60% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_00.png");
+   }
+
+   70% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_02.png");
+   }
+
+   80% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_03.png");
+   }
+
+   90% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_02.png");
+   }
+
+   93% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_03.png");
+   }
+
+   96% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_02.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_sleep/kirby_sleep_03.png");
+   }
+}
+
+
+
+@keyframes kirby_needle_attack_adventure {
+   0% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_00.png");
+   }
+
+   12% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_01.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_02.png");
+   }
+
+   37% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_03.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_04.png");
+   }
+
+   63% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_05.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_06.png");
+   }
+
+   88% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_07.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/abilities/kirby_needle/kirby_needle_07.png");
+   }
+}

@@ -1,0 +1,17 @@
+.drink {
+   background-image: url("../img/adventure/items/drink.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.tomato {
+   background-image: url("../img/adventure/items/tomato.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
