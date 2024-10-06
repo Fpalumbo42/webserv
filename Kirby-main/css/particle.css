@@ -1,0 +1,135 @@
+.particle {
+   background-image: url("../img/adventure/particles/inhale_particle.png");
+
+   width: 1px;
+   height: 2px;
+
+   position: absolute;
+}
+
+.particleDedede {
+   background-image: url("../img/dream_land/little_star.png");
+
+   width: 8px;
+   height: 8px;
+
+   position: absolute;
+}
+
+.expulse_air {
+   background-image: url("../img/adventure/particles/expulse_air.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.death_particle {
+   background-image: url("../img/adventure/ennemies/death_effect/death_effect_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.star {
+   background-image: url("../img/adventure/big_star/star_00.png");
+   background-repeat: no-repeat;
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: star_turn 500ms infinite;
+}
+
+.little_star {
+   background-image: url("../img/adventure/particles/little_star.png");
+
+   width: 8px;
+   height: 8px;
+
+   position: absolute;
+}
+
+.inhalable_star {
+   background-image: url("../img/dream_land/big_star/big_star_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.copy_ability_particle {
+   background-image: url("../img/adventure/kirby/copy_ability_particle_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   z-index: 10;
+
+   position: absolute;
+}
+
+
+@keyframes star_turn {
+   0% {
+      background-image: url("../img/adventure/big_star/star_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/big_star/star_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/big_star/star_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/big_star/star_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/big_star/star_00.png");
+   }
+}
+
+@keyframes death_particle_adventure {
+   0% {
+      background-image: url("../img/adventure/ennemies/death_effect/death_effect_00.png");
+   }
+
+   33% {
+      background-image: url("../img/adventure/ennemies/death_effect/death_effect_01.png");
+   }
+
+   66% {
+      background-image: url("../img/adventure/ennemies/death_effect/death_effect_02.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/death_effect/death_effect_02.png");
+   }
+}
+
+@keyframes copy_ability_particle_adventure {
+   0% {
+      background-image: url("../img/adventure/kirby/copy_ability_particle_00.png");
+   }
+
+   33% {
+      background-image: url("../img/adventure/kirby/copy_ability_particle_01.png");
+   }
+
+   66% {
+      background-image: url("../img/adventure/kirby/copy_ability_particle_02.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/kirby/copy_ability_particle_02.png");
+   }
+}

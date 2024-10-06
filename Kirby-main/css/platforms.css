@@ -1,0 +1,40 @@
+.platform_wood_00 {
+   background-image: url("../img/adventure/env/platform_wood_00.png");
+
+   width: 64px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.platform_wood_01 {
+   background-image: url("../img/adventure/env/platform_wood_01.png");
+
+   width: 48px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.platform_wood_02 {
+   background-image: url("../img/adventure/env/platform_wood_02.png");
+
+   width: 32px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.platform_wood_03 {
+   background-image: url("../img/adventure/env/platform_wood_03.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+#plaform_wood_00_00 {
+   left: 150px;
+   top: 100px;
+}

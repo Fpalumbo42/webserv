@@ -1,0 +1,68 @@
+#UI {
+   background-color: #f4d6a4;
+
+   height: 32px;
+   width: 100px;
+
+   position: relative;
+
+   border-radius: 0 30px 0 0;
+}
+
+#kirby_UI {
+   background-image: url("../img/adventure/UI/normal.png");
+
+   width: auto;
+   height: 80%;
+
+   left: 10px;
+   top: 6%;
+
+   position: relative;
+}
+
+#kirby_ability {
+   background-image: url("../img/adventure/UI/normal.png");
+
+   width: 32px;
+   height: 40px;
+
+   left: 4px;
+   top: 6px;
+
+   position: relative;
+}
+
+.kirby_health_point {
+   background-image: url("../img/adventure/UI/HP.png");
+
+   width: 10%;
+   height: 60%;
+
+   top: 20%;
+
+   position: absolute;
+}
+
+#dedede_UI {
+   background-image: url("../img/dream_land/UI/boss.png");
+
+   width: 8px;
+   height: 8px;
+
+   left: 192px;
+   top: -2px;
+
+   position: relative;
+}
+
+.dedede_health_point {
+   background-image: url("../img/dream_land/UI/healthPointBoss.png");
+
+   width: 8px;
+   height: 8px;
+
+   top: 6px;
+
+   position: absolute;
+}

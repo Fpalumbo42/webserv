@@ -1,0 +1,419 @@
+.gordo {
+   animation: gordo_idle 500ms infinite;
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes gordo_idle {
+   0% {
+      background-image: url("../img/dream_land/ennemies/gordo/gordo_00.png");
+   }
+
+   50% {
+      background-image: url("../img/dream_land/ennemies/gordo/gordo_01.png");
+   }
+
+   100% {
+      background-image: url("../img/dream_land/ennemies/gordo/gordo_00.png");
+   }
+}
+
+.shotzo_horizontal {
+   background-image: url("../img/adventure/ennemies/shotzo/shotzo_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.shotzo_vertical {
+   background-image: url("../img/adventure/ennemies/shotzo/shotzo_01.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.cannon_ball {
+   animation: cannon_ball_idle 300ms infinite;
+
+   width: 12px;
+   height: 12px;
+
+   position: absolute;
+}
+
+@keyframes cannon_ball_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/shotzo/cannon_ball_00.png");
+   }
+
+   25% {
+      background-image: url("../img/adventure/ennemies/shotzo/cannon_ball_01.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/shotzo/cannon_ball_02.png");
+   }
+
+   75% {
+      background-image: url("../img/adventure/ennemies/shotzo/cannon_ball_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/shotzo/cannon_ball_00.png");
+   }
+}
+
+.waddle_dee {
+   background-image: url("../img/adventure/ennemies/waddle_dee/waddle_dee_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: waddle_dee_idle 500ms infinite;
+}
+
+@keyframes waddle_dee_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/waddle_dee/waddle_dee_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/waddle_dee/waddle_dee_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/waddle_dee/waddle_dee_00.png");
+   }
+}
+
+.buzzy_brut {
+   background-image: url("../img/adventure/ennemies/buzzy_brut/buzzy_brut_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: buzzy_brut_idle 500ms infinite;
+}
+
+@keyframes buzzy_brut_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/buzzy_brut/buzzy_brut_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/buzzy_brut/buzzy_brut_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/buzzy_brut/buzzy_brut_00.png");
+   }
+}
+
+.twizzy {
+   background-image: url("../img/adventure/ennemies/twizzy/twizzy_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: twizzy_idle 500ms infinite;
+}
+
+@keyframes twizzy_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/twizzy/twizzy_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/twizzy/twizzy_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/twizzy/twizzy_00.png");
+   }
+}
+
+.poppy_jr {
+   background-image: url("../img/adventure/ennemies/poppy_jr/poppy_jr_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: poppy_jr_idle 500ms infinite;
+}
+
+@keyframes poppy_jr_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/poppy_jr/poppy_jr_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/poppy_jr/poppy_jr_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/poppy_jr/poppy_jr_00.png");
+   }
+}
+
+.coner {
+   background-image: url("../img/adventure/ennemies/coner/coner_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes coner_move {
+   0% {
+      background-image: url("../img/adventure/ennemies/coner/coner_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/coner/coner_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/coner/coner_02.png");
+   }
+}
+
+.broom_hatter {
+   background-image: url("../img/adventure/ennemies/broom_hatter/broom_hatter_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes broom_hatter_move {
+   0% {
+      background-image: url("../img/adventure/ennemies/broom_hatter/broom_hatter_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/broom_hatter/broom_hatter_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/broom_hatter/broom_hatter_01.png");
+   }
+}
+
+.hot_head {
+   background-image: url("../img/adventure/ennemies/hot_head/hot_head_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: hot_head_idle 500ms infinite;
+}
+
+@keyframes hot_head_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_00.png");
+   }
+}
+
+@keyframes hot_head_attack {
+   0% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_04.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_05.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/hot_head/hot_head_04.png");
+   }
+}
+
+
+.sir_kibble {
+   background-image: url("../img/adventure/ennemies/sir_kibble/sir_kibble_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes sir_kibble_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/sir_kibble/sir_kibble_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/sir_kibble/sir_kibble_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/sir_kibble/sir_kibble_00.png");
+   }
+}
+
+.waddle_doo {
+   background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes waddle_doo_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_00.png");
+   }
+}
+
+@keyframes waddle_doo_attack {
+   0% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_02.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_03.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/waddle_doo/waddle_doo_02.png");
+   }
+}
+
+
+.pengi {
+   background-image: url("../img/adventure/ennemies/pengi/pengi_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+@keyframes pengi_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_00.png");
+   }
+}
+
+@keyframes pengi_attack {
+   0% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_03.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_04.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/pengi/pengi_03.png");
+   }
+}
+
+.sparky {
+   background-image: url("../img/adventure/ennemies/sparky/sparky_00.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: sparky_idle 500ms infinite;
+}
+
+@keyframes sparky_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_00.png");
+   }
+}
+
+@keyframes sparky_attack {
+   0% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_03.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_04.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/sparky/sparky_03.png");
+   }
+}
+
+.noddy {
+   background-image: url("../img/adventure/ennemies/noddy/noddy_01.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+
+   animation: noddy_idle 500ms infinite;
+}
+
+@keyframes noddy_idle {
+   0% {
+      background-image: url("../img/adventure/ennemies/noddy/noddy_00.png");
+   }
+
+   50% {
+      background-image: url("../img/adventure/ennemies/noddy/noddy_01.png");
+   }
+
+   100% {
+      background-image: url("../img/adventure/ennemies/noddy/noddy_00.png");
+   }
+}

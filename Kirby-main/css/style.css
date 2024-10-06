@@ -1,0 +1,134 @@
+* {
+   margin: 0px;
+   padding: 0px;
+
+   image-rendering: pixelated;
+   image-rendering: -moz-crisp-edges;
+   image-rendering: crisp-edges;
+
+   animation-timing-function: "steps(1)";
+
+   background-repeat: no-repeat;
+   background-size: contain;
+
+   scale: 1;
+}
+
+#game {
+   left: 0px;
+   top: 0px;
+
+   width: auto;
+
+   position: absolute;
+
+   overflow: hidden;
+
+   scale: 1;
+}
+
+@keyframes shake {
+   0% { transform: translate(1px, 1px) rotate(0deg); }
+   10% { transform: translate(-1px, -2px) rotate(-1deg); }
+   20% { transform: translate(-3px, 0px) rotate(1deg); }
+   30% { transform: translate(3px, 2px) rotate(0deg); }
+   40% { transform: translate(1px, -1px) rotate(1deg); }
+   50% { transform: translate(-1px, 2px) rotate(-1deg); }
+   60% { transform: translate(-3px, 1px) rotate(0deg); }
+   70% { transform: translate(3px, 1px) rotate(-1deg); }
+   80% { transform: translate(-1px, -1px) rotate(1deg); }
+   90% { transform: translate(1px, 2px) rotate(0deg); }
+   100% { transform: translate(1px, -2px) rotate(-1deg); }
+ }
+
+#background_dedede {
+   background-image: url("../img/dream_land/dedede_battle/background.png");
+   background-repeat: no-repeat;
+
+   width: 500px;
+   height: 250px;
+
+   position: absolute;
+
+   z-index: -50;
+
+   left: 0px;
+   top: 0px;
+}
+
+.block {
+   background-image: url("../img/adventure/env/block.png");
+
+   width: 16px;
+   height: 16px;
+
+   position: absolute;
+}
+
+.door {
+   background-image: url("../img/dream_land/door_black.png");
+
+   width: 16px;
+   height: 24px;
+
+   z-index: -10;
+
+   position: absolute;
+}
+
+
+#ground {
+   width: 200px;
+   height: 16px;
+
+   left: 150px;
+   top: 181px;
+
+   position: absolute;
+}
+
+#wall_left {
+   width: 16px;
+   height: 200px;
+
+   left: 154px;
+   top: 0px;
+
+   position: absolute;
+}
+
+#wall_right {
+   width: 16px;
+   height: 200px;
+
+   left: 330px;
+   top: 0px;
+
+   position: absolute;
+}
+
+#controls {
+   background-image: url("../img/dream_land/controls.png");
+   background-repeat: no-repeat;
+
+   width: 77px;
+   height: 50px;
+
+   left: 300px;
+   top: 150px;
+
+   position: absolute;
+}
+
+.one_way_platform {
+   background-image: url("../img/adventure/env/one_way_platform_00.png");
+   background-repeat: no-repeat;
+
+   width: 64px;
+   height: 13px;
+
+   left: 300px;
+   top: 200px;
+
+   position: absolute;
+}
